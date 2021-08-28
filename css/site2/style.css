@@ -1,0 +1,24 @@
+:root {
+  --background: #fffafa;
+  --data: #008080;
+}
+
+.post-container {
+  height: 100vh;
+  padding: 15px 50px;
+  margin: 0 300px;
+  background-color: var(--background);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.date {
+  font-family: 'Roboto', sans-serif;
+  color: var(--data);
+}
+
+.post-content {
+  font-family: 'Open Sans', sans-serif;
+}
