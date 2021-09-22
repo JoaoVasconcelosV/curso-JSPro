@@ -1,14 +1,13 @@
-const path = require('path');
+const path = require("path")
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    galaxy: './src/galaxy.js'
+    index: './src/index.js'
   },
 
   output: {
-    filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist")
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist')
   },
 
   module: {

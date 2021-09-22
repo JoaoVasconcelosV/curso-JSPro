@@ -1,4 +1,12 @@
-import moment from 'moment/src/moment';
-//import "galaxy.js" //Usar aspas para importação direta
+const Planet = require("./planet");
+const solarSystem = require("./solar_system");
+const moment = require("moment");
 
-alert(moment().format("HH:mm:ss"));
+const earth = new Planet("Terra", 50100000);
+earth.rotate();
+
+solarSystem.planets.push(earth);
+solarSystem.planets.push(new Planet("Marte", 43000000));
+
+console.log(solarSystem);
+console.log(moment().format("hh:mm"))
